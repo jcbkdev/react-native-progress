@@ -95,6 +95,7 @@ export class ProgressCircle extends Component {
       textStyle,
       thickness,
       unfilledColor,
+      unfilledStrokeCap,
       endAngle,
       allowFontScaling,
       ...restProps
@@ -147,6 +148,7 @@ export class ProgressCircle extends Component {
               endAngle={CIRCLE * endAngle}
               direction={direction}
               stroke={unfilledColor}
+              strokeCap={unfilledStrokeCap}
               strokeWidth={thickness}
             />
           ) : (

@@ -53,7 +53,7 @@ declare module 'react-native-progress' {
      * @memberof DefaultPropTypes
      * @default rgba(0, 122, 255, 1)
      */
-     color?: string;
+    color?: string;
 
     /**
      * Color of the remaining progress.
@@ -224,6 +224,15 @@ declare module 'react-native-progress' {
      * @default butt
      */
     strokeCap?: 'butt' | 'square' | 'round';
+
+    /**
+     * Stroke Cap style for the remaining progress `butt`, `square` or `round`.
+     *
+     * @type {('butt' | 'square' | 'round')}
+     * @memberof CirclePropTypes
+     * @default butt
+     */
+    unfilledStrokeCap?: 'butt' | 'square' | 'round';
 
     /**
      * Fill color of the inner circle.

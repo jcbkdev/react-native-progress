@@ -66,6 +66,7 @@ All of the props under _Properties_ in addition to the following:
 | **`allowFontScaling`**     | Whether or not to respect device font scale setting.                                                                         | _true_             |
 | **`direction`**            | Direction of the circle `clockwise` or `counter-clockwise`.                                                                  | `clockwise`        |
 | **`strokeCap`**            | Stroke Cap style for the circle `butt`, `square` or `round`.                                                                 | `butt`             |
+| **`unfilledStrokeCap`**    | Stroke Cap style for the remaining progress `butt`, `square` or `round`.                                                     | `butt`             |
 | **`fill`**                 | Fill color of the inner circle.                                                                                              | None (transparent) |
 
 ### `Progress.Pie`
